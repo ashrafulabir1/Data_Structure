@@ -2,10 +2,10 @@ package Default;
 
 public class LinearSearch {
 	   public static void main(String args[]){
-	      int array[] = {10, 20, 25, 63, 96, 57};
+	      int array[] = {77, 23, 55, 90, 7, 67, 3, 89};
 	      int size = array.length;
-	      int value1 = 63;
-	      int value2= 57;
+	      int value1 = 90;
+	      int value2= 89;
 	    
 	    	 for (int i=0 ;i< size; i++){
 		         if(array[i]==value1 || (array[i]==value2 && array[i]==value1)){

@@ -27,10 +27,18 @@ public class ReversingBySwaping {
 		        for (int k=0;k<Array1.length;k++) {
 		            System.out.println(Array1[k]);
 		        }
+		        System.out.println("The reversed array is : ");
+		    	for(int i=Array1.length-1;i>=0;i--) {
+		    		System.out.println(Array1[i] +" "); //reverse array
+		    	  }
 		        System.out.println("Array2" + " Array after Swap" + "\n");
 		        for (int k=0;k<Array1.length;k++) {
 		            System.out.println(Array2[k]);
 		        }
+		        System.out.println("The reversed array is : ");
+		    	for(int i=Array2.length-1;i>=0;i--) {
+		    		System.out.println(Array2[i] +" "); //reverse array
+		    	  }
 	      
        }
 
